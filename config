@@ -55,6 +55,12 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec alacritty
 
+# open neovim
+bindsym $mod+n exec alacritty -e nvim
+
+# open firefox
+bindsym $mod+b exec firefox
+
 # show windows
 bindsym $mod+z exec rofi -show
 
